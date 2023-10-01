@@ -1,0 +1,372 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(205, 216, 255);
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 2);
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a
+{
+    margin: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 38, 160);
+    font-size: 16px;
+    font-weight: 650;
+}
+
+nav ul li a:hover
+{
+    background-color: rgb(0, 38, 160);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 35px;
+    padding: 10px;
+}
+
+.logo
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 38, 160);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+
+ /* Profile  */
+#profile {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+}
+
+.img-container {
+  display: flex;
+  height: 250px;
+  width: 400px;
+  margin: 80px 0px 0px 0px;
+}
+
+.section-text
+{
+    align-self: center;
+    text-align: center;
+}
+
+.section-text p {
+    font-weight: 600;
+}
+  
+.section-text__p1 {
+    text-align: center !important;
+    line-height: 0px;
+    font-size: 20px;
+}
+  
+.section-text__p2 {
+    font-size: 35px;
+    line-height: 0px;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    line-height: 0px;
+}
+.picture-img {
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+}
+
+/* .home p
+{
+    list-style: 0px;
+    margin: 100px 100px 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    color: #1a1a1a;
+    letter-spacing: none;
+    font-size: 20px;
+} */
+
+#home
+{
+    width: 100%;
+    height: 45vh;
+    position: relative;
+}
+
+.home
+{
+    position: absolute;
+    left: 0%;
+    right: 30%;
+    transform: translate(35% , 22%);
+}
+
+.about
+{
+    height: 45vh;
+    background-color: #ededed;
+    padding: 0.5% 10% 7%;
+}
+
+.about-desc
+{
+    margin: 10px;
+}
+
+.about-desc p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: 000;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-desc p:nth-child(2)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7e7e7e;
+    text-align: center;
+}
+
+.row
+{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+}
+
+.row .column h2
+{
+    text-align: center;
+}
+
+.row .column p
+{
+    text-align: center;
+}
+
+.column
+{
+    flex: 50%;
+    padding: 30px;
+    height: 200px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+/* Experience */
+.experience
+{
+    height: 50vh;
+    background-color: #fff;
+    padding: 0.5% 10% 7%;
+}
+
+.experience p
+{
+    text-align: center;
+}
+
+.experience-desc
+{
+    margin: 50px 50px;
+}
+
+.experience-desc p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: 000;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.experience-desc p:nth-child(1)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7e7e7e;
+    text-align: center;
+}
+
+.box-container
+{
+    display: flex;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+.box-1, .box-2, .box-3
+{
+    width: 350px;
+    height: 250px;
+    box-shadow: 2px 12px 18px rgba(0, 0, 0, 0.2);
+    justify-content: baseline;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+
+.box-1 span, .box-2 span, .box-3 span
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(205, 216, 255);
+    color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.box-1 p:nth-child(3), .box-2 p:nth-child(3), .box-3 p:nth-child(3)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8f8f8f;
+    width: 250px;
+    margin: 0px 0px 10px 0px;
+}
+.box-1 p:nth-child(4), .box-2 p:nth-child(4), .box-3 p:nth-child(4)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8f8f8f;
+    width: 250px;
+    margin: 0px 0px 10px 0px;
+}
+.box-1 p:nth-child(5), .box-2 p:nth-child(5), .box-3 p:nth-child(5)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8f8f8f;
+    width: 250px;
+    margin: 0px 0px 10px 0px;
+}
+.box-1 p:nth-child(6), .box-2 p:nth-child(6), .box-3 p:nth-child(6)
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8f8f8f;
+    width: 250px;
+    margin: 0px 0px 10px 0px;
+}
+
+footer
+{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(42, 60, 119);
+}
+
+footer p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer p:nth-child(1)
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 0px;
+    margin-top: 60px;
+}
+
+footer p:nth-child(2)
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.social-icons
+{
+    margin: 50px 0px;
+    display: flex;
+    text-align: center;
+}
+
+.social-icons a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    background-color: #ffff;
+    border-radius: 50%;
+}
+
+.social-icons i
+{
+    font-size: 35px;
+    color: rgb(0, 38, 160);;
+}
+
+.social-icons a:hover
+{
+    background-color: rgb(0, 38, 160);
+    color: #fff;
+}
+
+.frow
+{
+    display: flex;
+    
+}
+
+.frow .fcolumn a
+{
+    text-align: center;
+}
+
+
+.fcolumn
+{
+    flex: 50%;
+    height: 130px;
+}
